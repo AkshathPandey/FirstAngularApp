@@ -1,5 +1,329 @@
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5 ">
-    <div class="col" *ngFor="let probj of products">
-        <app-product-details [productObj]=probj></app-product-details>
+<!-- <ul class="nav nav-pills text-center">
+    <li class="nav-item text-center">
+      <a class="nav-link" routerLink="Pens" routerlinkActive="active">Pens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="Bags" routerlinkActive="active">Bags</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="Bottles" routerlinkActive="active">Bottles</a>
+    </li>
+    
+</ul> -->
+
+
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+
+
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://climate.nasa.gov/system/news_items/main_images/215_newsPage-215.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/aerosols-0" class="btn btn-primary float-end">Aerosols</a>
+
+      </div>
+
     </div>
+
+  </div>
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://d2cbg94ubxgsnp.cloudfront.net/Pictures/1024x536/7/8/7/131787_C0048624-Asbestos_SEM-SPL.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclen:ow.com/what-to-do-with/asbestos" class="btn btn-primary float-end">Asbestos</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://5.imimg.com/data5/NA/YT/MY-25158336/aluminium-trays-500x500.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/foil-0" class="btn btn-primary float-end">Aluminium Trays</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/aec4900b-3b7f-4cce-877f-b0c493d91641-unnecessary-changes.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/bathroom-suites-1" class="btn btn-primary float-end">Bathroom Suites</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://image.shutterstock.com/image-illustration/batteries-aa-alkaline-isolated-on-260nw-499093948.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/batteries-1" class="btn btn-primary float-end">Batteries</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://static.fibre2fashion.com/articleresources/images/87/8687/textile-industry-big_Big.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/clothing-textiles-0" class="btn btn-primary float-end">Clothing and textiles</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/amazon-rivet-furniture-1533048038.jpg?crop=1.00xw:0.502xh;0,0.423xh&resize=1200:*" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/furniture-0" class="btn btn-primary float-end">Furniture</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/old-books-arranged-on-shelf-royalty-free-image-1572384534.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/books-1" class="btn btn-primary float-end">Books</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://thumbs.dreamstime.com/b/empty-glass-bottles-jar-white-background-recycling-problem-138070502.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/glass-0" class="btn btn-primary float-end">Glass bootles and Jars</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://walesrecycles.org.uk/sites/files/recyclenow/styles/custom_main/public/images/main/Metals%20-%20Drink%20and%20food%20cans.jpg?itok=UJ7tXt1r" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/food-tins-drink-cans-0" class="btn btn-primary float-end">Tins and Cans</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NsEFmC0Zs__FqDz1YEUz0ZHc5YkKJChvPifqys7iqxO0fH9BG0Uzopoyjct_4ab0iSY&usqp=CAU" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/car-batteries-1" class="btn btn-primary float-end"> Car Batteries</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://image.shutterstock.com/image-photo/set-water-plastic-bottle-isolated-260nw-1033364095.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/plastic-bottles-0" class="btn btn-primary float-end"> Plastic Bottles</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://media.istockphoto.com/vectors/retro-musical-instruments-set-realistic-design-vector-id1002508648" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/musical-instruments-1" class="btn btn-primary float-end">Musical Instruments</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5d35eacaf1176b0008974b54%2F2020-Chevrolet-Corvette-Stingray%2F960x0.jpg%3FcropX1%3D790%26cropX2%3D5350%26cropY1%3D784%26cropY2%3D3349" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/cars-1" class="btn btn-primary float-end">Cars</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://m.media-amazon.com/images/I/31QFQHMWBVL._AC_.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/electrical-items-0" class="btn btn-primary float-end"> CD and DVD Players</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://www.packagingdigest.com/sites/packagingdigest.com/files/FTR-AdobeStock_Coffee-beans-capsules-363831267.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/coffee-podscapsules-1" class="btn btn-primary float-end">Coffee capsules </a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://i0.wp.com/marketbusinessnews.com/wp-content/uploads/2017/06/White-Goods.jpg?fit=502%2C528&ssl=1" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/white-goods-0" class="btn btn-primary float-end">White Goods </a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://assets.thehansindia.com/h-upload/2021/07/15/1600x960_1088627-petrol.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/diesel-petrol-0" class="btn btn-primary float-end">Diesel and petrol </a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="container">
+    <div class="card mt-5 shadow">
+      <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_41/3512398/211013-disposable-face-mask-bd-2x1.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/face-coverings-masks-and-ppe" class="btn btn-primary float-end"> Masks</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="container">
+    <div class="card mt-5 mb-5 shadow">
+      <img src="https://i.pinimg.com/originals/f6/87/3c/f6873c84de97a3d997032922cbcce66f.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/light-bulbs-1" class="btn btn-primary float-end"> Electric bulbs</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="container">
+    <div class="card mt-5 mb-5 shadow">
+      <img src="https://5.imimg.com/data5/LJ/MV/MY-42909417/greeting-cards-500x500.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/greetings-cards-1" class="btn btn-primary float-end"> Greeting Cards</a>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="container">
+    <div class="card mt-5 mb-5 shadow">
+      <img src="https://www.hazoorilaljewellers.com/wp-content/uploads/2021/07/2020-03-20-3.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/jewellery-1" class="btn btn-primary float-end">jewellery</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="card mt-5 mb-5 shadow">
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blowdryers-1615915401.png?crop=0.610xw:0.607xh;0.390xw,0.175xh&resize=1200:*" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/electrical-items-0" class="btn btn-primary float-end">Hair Dryers</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="card mt-5 mb-5 shadow">
+      <img src="https://i.pcmag.com/imagery/roundups/01Wsuw14K02wrCTGIwg8xA8-15.fit_lim.size_1200x630.v1620845330.jpg" alt="" width="100%" height="200px">
+
+      <div class="card-body"><a href="https://www.recyclenow.com/what-to-do-with/electrical-items-0" class="btn btn-primary float-end">Printers</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  
+
+  
+  
+
+
 </div>
+
+  
+
+

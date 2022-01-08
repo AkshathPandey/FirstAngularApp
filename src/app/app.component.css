@@ -6,12 +6,52 @@
     margin-left: 10px;
     margin-top: 10px;
 } */
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
 
+#container {
+    min-height:100%;
+    position:relative;
+ }
+ #header {
+    background:#ff0;
+    padding:10px;
+ }
+ #body {
+    padding:10px;
+    padding-bottom:60px;   /* Height of the footer */
+ }
+ #footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#6cf;
+ }
 h1{
     color: red;
     background-color: black;
     margin-left: 70px;
+    
     margin-right: 70px;
 }
 
-   
+.page-footer{
+
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+
+#sect1 {  
+   height: 650 px;  
+   color: #fff;background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");  
+   background-size: 100% ;  
+   background-size: cover;  
+} 
